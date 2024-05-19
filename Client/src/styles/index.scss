@@ -1,0 +1,27 @@
+/* base */
+@import "./base/base";
+
+/* ----------------------------- MOBILE ----------------------------------*/
+/* components */
+@import "../Components/mobile";
+
+/* routes */
+@import "../Routes/mobile";
+
+/* ----------------------------- TABLET ----------------------------------*/
+@media only screen and (min-width: $Tablet) {
+  /* components */
+  @import "../Components/tablet";
+
+  /* routes */
+  @import "../Routes/tablet";
+}
+
+/* ----------------------------- DESKTOP ----------------------------------*/
+@media only screen and (min-width: $Desktop) {
+  /* components */
+  @import "../Components/desktop";
+
+  /* routes */
+  @import "../Routes/desktop";
+}
